@@ -1,7 +1,13 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
 export default function Header() {
+  const navigate = useNavigate()
+
+  const handleCartClick = () => {
+    navigate("/cart")
+  }
+
   return (
     <header className="sticky top-0 z-10 bg-background shadow">
       <div className="container flex items-center justify-between h-16 px-4 md:px-6">
@@ -20,7 +26,7 @@ export default function Header() {
             Contact
           </Link>
         </nav>
-        <Button className="hidden md:inline-flex">Order Now</Button>
+        <Button className="hidden md:inline-flex" onClick={handleCartClick}>Cart</Button>
       </div>
     </header>
   );
