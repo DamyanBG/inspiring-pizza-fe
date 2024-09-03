@@ -1,0 +1,95 @@
+.pizza-details-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pizza-image-container {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    padding: 20px;
+  }
+  
+  .pizza-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .pizza-info {
+    flex: 2;
+    padding: 20px;
+    max-width: 600px;
+  }
+  
+  .pizza-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .pizza-description {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .pizza-ingredients-title,
+  .pizza-nutrition-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #c0392b;
+    margin-bottom: 10px;
+  }
+  
+  .pizza-ingredients,
+  .pizza-nutritional-facts {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .pizza-ingredients li,
+  .pizza-nutritional-facts li {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 5px;
+  }
+  
+  .pizza-price-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .pizza-price {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #27ae60;
+  }
+  
+  .add-to-cart-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #2980b9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #3498db;
+  }  
