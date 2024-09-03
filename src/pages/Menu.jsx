@@ -3,8 +3,8 @@
  * @see https://v0.dev/t/GBT4H2aVE7p
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
-import React from 'react';
 import { Link } from 'react-router-dom';
+
 import pizzas from '../pizzasData';
 
 export default function Menu() {

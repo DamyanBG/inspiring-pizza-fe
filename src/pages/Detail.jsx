@@ -1,6 +1,7 @@
-import React from 'react';
 import { useParams } from 'react-router-dom';
+
 import pizzas from '../pizzasData';
+
 import './PizzaDetailsPage.css';
 
 function Detail() {
